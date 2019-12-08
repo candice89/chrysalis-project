@@ -1,0 +1,20 @@
+.btn {
+  font-size: 14px;
+  font-weight: 600; 
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #f34949;
+  border-color: #f34949;
+  color: #fff;
+  border-radius: 30px;
+  padding: 9px 25px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s; 
+}
+.btn-primary:hover {
+  background-color: #e22104;
+  border-color: #e22104;
+  color: #fff; 
+}
