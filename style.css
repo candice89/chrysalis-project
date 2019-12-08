@@ -20,6 +20,7 @@
   background-color:#618685;
   border-radius: 20ex;
   border-style: solid;
+  font-size:3ex;
 }
 .CZ0XZqHR04wT5hFz{
   height:100%;
@@ -27,10 +28,11 @@
   background-color:#c94c4c;
   border-radius: 20ex;
   border-style: solid;
+  font-size:3ex;
 }
 
 .typewriter h1 {
-  color: #fff;
+  color: black;
   font-family: monospace;
   font-size: 2ex;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
