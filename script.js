@@ -1,19 +1,19 @@
 let ID_TO_BUTTON = {
   "doS0G8m9ESqqlf87": {
-    "text":"Before Japan",
+    "text":"Chapter 1<br>Before Japan",
     "class":"U1J4egV6Qo4DhTR6",
   },
   "Vot3VP4N7SN7vH8q":{
-    "text":"Studied in Japan",
+    "text":"Chapter 2<br>Studied in Japan",
     "class":"CZ0XZqHR04wT5hFz",
   },
   "W5M5p26ezqe7DKMj":{
-    "text":"Work in Japan",
+    "text":"Chapter 3<br>Work in Japan",
     "class":"U1J4egV6Qo4DhTR6",
   },
   "C6cVFRFZZGkiau1P":{
     "class":"CZ0XZqHR04wT5hFz",
-    "text":"What next?",
+    "text":"Chapter X<br>What next?",
   },
 };
 let ID_TO_SRC = {
