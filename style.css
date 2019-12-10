@@ -56,3 +56,8 @@
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
+.swiA2YW7ob {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}

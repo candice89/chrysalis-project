@@ -1,0 +1,18 @@
+.fourfivesix{
+  font-size: 20pt;
+}
+#myLanguagesLightbox{
+  font-size: 20pt;
+  display: none;
+}
+#myCountriesLightbox{
+  font-size: 20pt;
+  display: none;
+}
+#myYearsLightbox{
+  font-size: 20pt;
+  display: none;
+}
+.featherlight .featherlight-inner {
+  display: block !important;
+}
