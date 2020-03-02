@@ -5,18 +5,18 @@
   font-size: 20pt;
   display: none;
 }
-#myCountriesLightbox{
+#studied-in-japan{
   font-size: 20pt;
   display: none;
 }
-#myYearsLightbox{
-  font-size: 20pt;
-  display: none;
-}
-#myTypeLightbox{
+#work-in-japan{
   font-size: 20pt;
   display: none;
 }
 .featherlight .featherlight-inner {
   display: block !important;
+}
+
+a {
+  text-decoration: none;
 }
