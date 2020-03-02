@@ -21,6 +21,10 @@
   border-radius: 20ex;
   border-style: solid;
   font-size:3ex;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .CZ0XZqHR04wT5hFz{
   height:100%;
@@ -29,6 +33,10 @@
   border-radius: 20ex;
   border-style: solid;
   font-size:3ex;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .typewriter h1 {

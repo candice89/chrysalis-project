@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style.min.css">
   <link rel="stylesheet" href="colors.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="series-featherlight.css">
   <script src="script.js"></script>
 </head>
 <body class="bg-silver">
@@ -16,24 +18,30 @@
 </header>
 <section style="width:100vw;padding-top:3em;">
   <div class="IH52BvthqFg0QpZ">
-    <div class="t4um2jmEbf7SLN3" id="doS0G8m9ESqqlf87">
-      <button class="U1J4egV6Qo4DhTR6" onclick="makeshift('doS0G8m9ESqqlf87');">
-        Chapter 1<br>
-        Before Japan
-      </button>
-    </div>
-    <div class="t4um2jmEbf7SLN3" id="Vot3VP4N7SN7vH8q">
-      <button class="CZ0XZqHR04wT5hFz" onclick="makeshift('Vot3VP4N7SN7vH8q')">
-        Chapter 2<br>
-        Studied in Japan
-      </button>
-    </div>
-    <div class="t4um2jmEbf7SLN3" id="W5M5p26ezqe7DKMj">
-      <button class="U1J4egV6Qo4DhTR6" onclick="makeshift('W5M5p26ezqe7DKMj')">
-        Chapter 3<br>
-        Work in Japan
-      </button>
-    </div>
+    <a href="#" data-featherlight="#before-japan">
+      <div class="t4um2jmEbf7SLN3" id="doS0G8m9ESqqlf87">
+          <div class="U1J4egV6Qo4DhTR6">
+            Chapter 1<br>
+            Before Japan
+          </div>
+      </div>
+    </a>
+    <a href="#" data-featherlight="#studied-in-japan">
+      <div class="t4um2jmEbf7SLN3" id="Vot3VP4N7SN7vH8q">
+          <div class="CZ0XZqHR04wT5hFz">
+            Chapter 2<br>
+            Studied in Japan
+          </div>
+      </div>
+    </a>
+    <a href="#" data-featherlight="#work-in-japan">
+      <div class="t4um2jmEbf7SLN3" id="W5M5p26ezqe7DKMj">
+        <div class="U1J4egV6Qo4DhTR6">
+          Chapter 3<br>
+          Work in Japan
+        </div>
+      </div>
+    </a>
     <div class="t4um2jmEbf7SLN3" id="C6cVFRFZZGkiau1P">
       <button class="CZ0XZqHR04wT5hFz" onclick="makeshift('C6cVFRFZZGkiau1P')">
         Chapter X<br>
@@ -41,13 +49,29 @@
       </button>
     </div>
   </div>
+  <div style="width:100vw;display:flex;justify-content:flex-end;margin-top:7em;padding-right:2em;">
+    <a href="mailto:tanglincandice@gmail.com">
+      <i class="fa fa-envelope blue" style=""></i>
+      <span>Text Me!</span>
+    </a> 
+  </div>
 </section>
-<div style="width:100vw;display:flex;justify-content:flex-end;margin-top:7em;padding-right:2em;">
-  <a href="mailto:tanglincandice@gmail.com">
-    <i class="fa fa-envelope blue" style=""></i>
-    <span>Text Me!</span>
-
-  </a> 
+<div id="before-japan">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <img src="res/before_japan.jpg" style="height: auto; width: 40%;"/>
+  </div>
 </div>
+<div id="work-in-japan">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <img src="res/work_in_japan.jpg" style="height: auto; width: 40%;"/>
+  </div>
+</div>
+<div id="studied-in-japan">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <img src="res/studied_in_japan.jpg" style="height: auto; width: 40%;"/>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
 </body>
 </html>

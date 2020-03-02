@@ -1,0 +1,22 @@
+.fourfivesix{
+  font-size: 20pt;
+}
+#before-japan{
+  font-size: 20pt;
+  display: none;
+}
+#myCountriesLightbox{
+  font-size: 20pt;
+  display: none;
+}
+#myYearsLightbox{
+  font-size: 20pt;
+  display: none;
+}
+#myTypeLightbox{
+  font-size: 20pt;
+  display: none;
+}
+.featherlight .featherlight-inner {
+  display: block !important;
+}
